@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page | With Password Strength </title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+
+<!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+
+<link rel="stylesheet" href="password_strength.css">
+
+        
+</head>
+
+<body>
+    <form action=".">
+        <!-- <img src="./images/user-128-32.png" alt="user-icon"> -->
+        <img src="https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png">
+
+        <div class="input-box">
+            <span><i class="bi bi-person"></i></span>
+            <input type="text" name="user" id="user" placeholder="Enter Your Name:" title="User Name:">
+        </div>
+        <div class="input-box">
+            <span><i class="bi bi-envelope"></i></span>
+            <input type="email" name="email" id="email" placeholder="Enter Your Name:" title="User Name:">
+        </div>
+        <div class="input-box" id="my-password">
+            <span><i class="bi bi-key"></i></span>
+            <input type="password" name="password" id="password" placeholder="Enter Your Password:" title="Password:">
+        </div>
+
+            <button type="submit" class="btn">Register</button>
+
+
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./jquery_psw/pwd_strength.js"></script>
+
+       <script type="text/javascript">
+    $(function() {
+        $("#password").passwordStrength();
+    });
+
+    </script>
+
+</body>
+
+</html>

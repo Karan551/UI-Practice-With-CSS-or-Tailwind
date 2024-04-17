@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+main {
+    background-color: #eee;
+    margin: 1rem 0.5rem;
+    padding: 1rem 0.5rem;
+    border-radius: 5px;
+}
+
+/* utility classes */
+.text-center {
+    text-align: center;
+}
+
+
+/*  */
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.para {
+    margin: 0.75rem 0;
+}
+
+figure {
+    background-color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 10px;
+}
+
+figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+figure figcaption {
+    margin: 10px 0 5px 0;
+    padding: 10px;
+}
+
+/* section element  */
+section>.life-heading {
+    margin: 2.5rem 0;
+}
+
+ul {
+    max-width:600px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+ul li{
+    margin: 1rem 0;
+}
+blockquote{
+    max-width: 500px;
+    margin: 0 auto;
+    font-style: italic;
+    text-align: left;
+}
+blockquote p{
+    margin: 2rem 0;
+}
+
+.more-info{
+    margin: 2.5rem 0;
+    text-align: center;
+}
+.more-info a{
+    color: #477ca7
+}
