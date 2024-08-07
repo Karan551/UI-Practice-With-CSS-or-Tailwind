@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+/* ----- CSS Reset ------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: aliceblue;
+    min-height: 100vh;
+}
+
+/* -------------- utility classes ------ */
+.text-center {
+    text-align: center;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.main-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header section */
+image {
+    display: block;
+}
+
+header {
+    padding: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 60vw;
+}
+
+.logo>img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin-left: 0.5rem;
+}
+
+nav {
+    width: 40vw;
+}
+
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 2rem 0.75rem;
+}
+
+a:any-link {
+    font-family: inherit;
+    color: #000;
+    text-decoration: none;
+}
+
+/* btn css */
+.btn {
+    font-weight: 700;
+    margin: 0.25rem 0.75rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #F1C40F;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: orange;
+}
+
+/* Footer css */
+footer {
+    background-color: #ddd;
+    width: 50vw;
+    display: flex;
+    flex-flow: column;
+    /* justify-content: end; */
+    align-items: flex-end;
+}
+
+/* yehan fix karna hai. */
+footer>ul {
+    padding: 2rem 0.5rem;
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+   
+}
+li{
+    margin: 10px 15px;
+}

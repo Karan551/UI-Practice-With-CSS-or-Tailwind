@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Blog Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex flex-col min-h-screen bg-gray-100 font-sans antialiased">
+    <!-- Navbar -->
+    <nav class="bg-blue-600 p-4 text-white flex justify-between">
+      <div>
+        <h1 class="font-bold text-3xl">AI BLOG Generator</h1>
+      </div>
+      <div>
+        <a href="#" class="hover:underline font-bold text-xl px-2">Logout</a>
+      </div>
+    </nav>
+    <!-- Here main content will arrive  -->
+    <main class="flex-grow container mx-auto mt-10 px-4 sm:px-0">
+      <section
+        class="max-w-3xl mx-auto p-6 rounded-lg bg-white shadow-md transition-transform transform hover:cursor-pointer hover:scale-105"
+      >
+        <!-- Introduction section -->
+        <div class="text-center p-6" id="intro-section">
+          <h2 class="font-semibold text-3xl">Welcome To The AI BLOG</h2>
+          <p class="text-lg text-gray-800 px-3 py-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            nesciunt consequuntur corrupti quo sit perspiciatis minus modi
+            eligendi voluptatum, cupiditate, iusto amet quisquam autem ad.
+          </p>
+        </div>
+        <!-- Youtube Section -->
+        <div id="youtube-section">
+          <h2 class="text-2xl font-bold">Enter Youtube Video Link</h2>
+          <div class="my-2">
+            <input
+              type="url"
+              placeholder="Paste Youtube Video Link....."
+              class=" mr-0 w-1/2 border border-2 border-blue-400 rounded-l-md px-4 py-2 outline-0"
+              name="youtube-url"
+              id="youtube-url"
+            />
+            <button class="ml-0 text-white text-lg font-semibold bg-blue-500 px-4 py-2 rounded-r-md hover:cursor-pointer hover:bg-blue-700 
+            transition-colors  ">Generate</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
